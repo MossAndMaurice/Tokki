@@ -4,7 +4,7 @@
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases"><strong>版本与下载</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/latest"><strong>下载 macOS 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
 
 ![字牌固定在实心底板上：妈耶，又停了？！Tokki 帮我看着，我睡觉去了！](assets/tokki-hero-3d-zh-CN-v4.png)
 
@@ -28,14 +28,12 @@
 
 ## 安装
 
-**首个公开安装包尚未上传。发布后可在 Releases 下载。**
-
 **Apple Silicon（M 系列）Mac · macOS 13 及以上**
 
 需要 Codex 桌面应用，以及已安装、已登录的 Codex CLI。**Windows 版即将推出。** 目前没有 Linux 版。
 
 1. 打开 [最新 Release](https://github.com/MossAndMaurice/Tokki/releases)，从 **Assets** 下载 `Tokki-macOS-….dmg`。
-2. 打开 DMG，按随包安装说明操作。
+2. 打开 DMG，运行 **`Install.command`** 安装或升级。
 3. 从状态栏打开 Tokki，给需要自动恢复的会话开启监控。
 
 使用时保持 Tokki、Codex 运行，Mac 也要保持唤醒。设置里可以开启登录时启动。
