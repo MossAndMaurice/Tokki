@@ -1,5 +1,21 @@
 # Release notes · 更新日志
 
+## macOS 1.12.4.3 — 2026-11-05
+
+### 中文
+
+- 修复同一台 Mac 上同时运行多个 Tokki 的问题。覆盖升级时，安装器会等待已运行的旧副本安全退出。
+- 修复活动会话漏报。一个会话的查询超时时，Tokki 仍可在同一轮确认其他正在运行的 Codex 会话。
+
+适用于 macOS 13 及以上的 Apple Silicon Mac。打开 DMG，运行 `Install.command` 即可安装或覆盖升级。
+
+### English
+
+- Fixed multiple Tokki copies running at the same time on one Mac. During an upgrade, the installer waits for running copies to quit safely.
+- Fixed missing active sessions when one Codex session lookup timed out. Tokki can now confirm other active sessions in the same refresh.
+
+Requires macOS 13 or later on Apple Silicon. Open the DMG and run `Install.command` to install or upgrade.
+
 ## macOS 1.12.4.2 — 2026-11-05
 
 ### 中文
