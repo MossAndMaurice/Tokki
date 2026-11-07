@@ -1,5 +1,19 @@
 # Release notes · 更新日志
 
+## Windows 1.12.5.2
+
+### 中文
+
+- 延长慢速网络的安装包下载等待时间，下载期间说明正在校验；失败时提示超时、磁盘空间、目录权限或同名文件冲突。
+- 下载目录中已有同名且校验通过的安装包时直接显示该文件；校验不符时保留原文件并提示移走。
+- Windows 上自然中断后的自动恢复尚未完成端到端实测；用于无人值守任务前请了解这一限制。
+
+### English
+
+- Allow more time for slow installer downloads, show a downloading message, and explain timeout, disk space, permission, or filename conflicts.
+- Reuse an existing installer when its SHA-256 matches; keep a conflicting file intact and ask the user to move it.
+- Automatic recovery after a natural interruption has not yet completed end-to-end validation on Windows.
+
 ## Windows 1.12.5.1
 
 ### 中文
