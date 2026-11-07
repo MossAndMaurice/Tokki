@@ -1,6 +1,6 @@
 # Release notes · 更新日志
 
-## Windows 1.12.5.0 — 2026-11-07
+## Windows 1.12.5.0
 
 ### 中文
 
