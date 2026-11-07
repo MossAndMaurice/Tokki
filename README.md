@@ -4,7 +4,7 @@
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.4.3"><strong>Download for macOS</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1"><strong>Download for macOS</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
 
 ![Raised signs fixed to a solid panel: Seriously?! Stopped AGAIN?! Tokki's got this. I'm going to bed!](assets/tokki-hero-3d-en-v4.png)
 
@@ -32,7 +32,7 @@ It won’t get around a usage limit. There still has to be quota to use.
 
 Requires Codex Desktop and an installed, signed-in Codex CLI. **Windows is coming soon.** Linux is not currently available.
 
-1. Download `Tokki-macOS-….dmg` from the **Assets** section of the [latest macOS release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.4.3).
+1. Download `Tokki-macOS-….dmg` from the **Assets** section of the [latest macOS release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1).
 2. Open the DMG and run **`Install.command`** to install or upgrade.
 3. Open Tokki from the menu bar and turn on monitoring for the sessions you want to resume.
 

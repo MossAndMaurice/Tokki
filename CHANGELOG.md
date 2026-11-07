@@ -1,5 +1,25 @@
 # Release notes · 更新日志
 
+## macOS 1.12.6.1 — 2026-11-07
+
+### 中文
+
+- 历史发现采用最近五个有更新记录的本地日期，跳过空日期。每轮额外检查最多八条，新建或更新的会话优先。
+- 已监控、活动、连接待核验及未结束计划的会话继续保留，包括索引窗口外的监控目标；关闭监控的旧会话仍可重新开启。
+- 诊断日志统一时间、进程与会话关联，补齐监控状态变化和读取失败原因。加入容量限制、轮换及只读导出，兼容旧日志格式。
+- 诊断导出失败单独处理。升级后继承原有设置、计划和发送记录，首次启动会整理旧诊断日志。
+
+适用于 macOS 13 及以上的 Apple Silicon Mac。打开 DMG，运行 `Install.command` 安装或覆盖升级。
+
+### English
+
+- Historical discovery now uses the five most recent local dates with updates, skipping empty dates. Each refresh checks up to eight additional historical candidates, prioritizing new or updated chats.
+- Monitored, active, pending-connection and unfinished-plan chats remain available, including monitored chats outside the recent index. Previously disabled chats remain available for re-enabling.
+- Diagnostic logs now share consistent timestamps and process/session correlation, with monitoring transitions and read-failure details. Added bounded retention, rotation and read-only export with legacy-log support.
+- Diagnostic export failures are handled separately. Upgrades retain settings, plans and delivery records. The first launch organizes older diagnostic logs.
+
+Requires macOS 13 or later on Apple Silicon. Open the DMG and run `Install.command` to install or upgrade.
+
 ## macOS 1.12.4.3 — 2026-11-05
 
 ### 中文
