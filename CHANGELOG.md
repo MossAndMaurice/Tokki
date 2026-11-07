@@ -1,5 +1,19 @@
 # Release notes · 更新日志
 
+## Windows 1.12.5.1
+
+### 中文
+
+- 再次启动 Tokki 时显示已经运行的窗口，仍只保留一个主进程。
+- 设置页署名改为可点击的 MossAndMaurice 仓库链接，并调整隐私提示文案。
+- Windows 上自然中断后的自动恢复尚未完成端到端实测；用于无人值守任务前请了解这一限制。
+
+### English
+
+- Opening Tokki again now shows the existing window while keeping a single main process.
+- The Settings footer links to the MossAndMaurice repository and uses clearer privacy wording.
+- Automatic recovery after a natural interruption has not yet completed end-to-end validation on Windows.
+
 ## Windows 1.12.5.0
 
 ### 中文

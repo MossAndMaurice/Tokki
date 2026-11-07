@@ -4,7 +4,7 @@
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1"><strong>下载 macOS 版</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.0"><strong>下载 Windows 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1"><strong>下载 macOS 版</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.1"><strong>下载 Windows 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
 
 ![字牌固定在实心底板上：妈耶，又停了？！Tokki 帮我看着，我睡觉去了！](assets/tokki-hero-3d-zh-CN-v4.png)
 
@@ -44,7 +44,7 @@
 
 ### Windows
 
-从 [Windows Release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.0) 下载 `Tokki-Windows-1.12.5.0.exe`，运行安装程序并选择安装目录，然后从系统托盘打开 Tokki。首轮验证目标为 Windows 11 x64。Windows 上自然中断后的自动恢复尚未完成端到端实测；用于无人值守任务前请阅读版本说明。
+从 [Windows Release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.1) 下载 `Tokki-Windows-1.12.5.1.exe`，运行安装程序并选择安装目录，然后从系统托盘打开 Tokki。首轮验证目标为 Windows 11 x64。Windows 上自然中断后的自动恢复尚未完成端到端实测；用于无人值守任务前请阅读版本说明。
 
 <details>
 <summary>使用前还需要知道的事</summary>
