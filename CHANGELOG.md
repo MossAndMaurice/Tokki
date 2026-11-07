@@ -1,5 +1,17 @@
 # Release notes · 更新日志
 
+## Windows 1.12.5.0 — 2026-11-07
+
+### 中文
+
+- 首个公开 Windows 安装包，支持选择安装目录、托盘运行、查看额度和会话，以及检查同平台的新版本。
+- 安装包经过正式构建和安装验收。Windows 上自然中断后的自动恢复尚未完成端到端实测，暂不建议把它作为无人值守任务的唯一保障。
+
+### English
+
+- First public Windows installer with a choice of installation folder, system tray operation, quota and session views, and platform-specific update checks.
+- The installer passed the release build and installation checks. Automatic recovery after a natural interruption has not yet completed end-to-end validation on Windows; do not rely on it as the sole safeguard for unattended work.
+
 ## macOS 1.12.6.1 — 2026-11-07
 
 ### 中文

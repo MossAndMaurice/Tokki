@@ -4,7 +4,7 @@
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1"><strong>Download for macOS</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1"><strong>Download for macOS</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.0"><strong>Download for Windows</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
 
 ![Raised signs fixed to a solid panel: Seriously?! Stopped AGAIN?! Tokki's got this. I'm going to bed!](assets/tokki-hero-3d-en-v4.png)
 
@@ -30,7 +30,7 @@ It won’t get around a usage limit. There still has to be quota to use.
 
 **Apple Silicon Mac · macOS 13+**
 
-Requires Codex Desktop and an installed, signed-in Codex CLI. **Windows is coming soon.** Linux is not currently available.
+Requires Codex Desktop and an installed, signed-in Codex CLI. Windows has a separate installer below. Linux is not currently available.
 
 1. Download `Tokki-macOS-….dmg` from the **Assets** section of the [latest macOS release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1).
 2. Open the DMG and run **`Install.command`** to install or upgrade.
@@ -41,6 +41,10 @@ Keep Tokki and Codex running. The Mac needs to be awake. Launch at login is avai
 For updates, run the installer again. It asks the old app to exit before replacing it and keeps settings and recovery records. If it can’t get a safe exit, it stops the installation.
 
 **The current app is ad-hoc signed and has not been notarized by Apple.** macOS may block it from opening. Check the release notes before installing.
+
+### Windows
+
+Download `Tokki-Windows-1.12.5.0.exe` from the [Windows release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.0) and run the installer. Choose an installation folder in the wizard, then open Tokki from the system tray. Windows 11 x64 is the initial validation target. Automatic recovery after a natural interruption has not yet completed end-to-end validation on Windows; see the release notes before using it for unattended work.
 
 <details>
 <summary>A few things to know</summary>

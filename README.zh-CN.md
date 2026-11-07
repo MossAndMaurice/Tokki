@@ -4,7 +4,7 @@
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1"><strong>下载 macOS 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1"><strong>下载 macOS 版</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.0"><strong>下载 Windows 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
 
 ![字牌固定在实心底板上：妈耶，又停了？！Tokki 帮我看着，我睡觉去了！](assets/tokki-hero-3d-zh-CN-v4.png)
 
@@ -30,7 +30,7 @@
 
 **Apple Silicon（M 系列）Mac · macOS 13 及以上**
 
-需要 Codex 桌面应用，以及已安装、已登录的 Codex CLI。**Windows 版即将推出。** 目前没有 Linux 版。
+需要 Codex 桌面应用，以及已安装、已登录的 Codex CLI。Windows 版有单独的安装包，见下文。目前没有 Linux 版。
 
 1. 打开 [最新 macOS Release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.6.1)，从 **Assets** 下载 `Tokki-macOS-….dmg`。
 2. 打开 DMG，运行 **`Install.command`** 安装或升级。
@@ -41,6 +41,10 @@
 升级时重新运行安装器即可。它会先请求旧版正常退出，再替换应用，保留设置和恢复记录；无法安全退出就停止安装。
 
 **当前安装包使用 ad-hoc 签名，尚未经过 Apple 公证，macOS 可能阻止打开。** 安装前请看对应版本的说明。
+
+### Windows
+
+从 [Windows Release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.0) 下载 `Tokki-Windows-1.12.5.0.exe`，运行安装程序并选择安装目录，然后从系统托盘打开 Tokki。首轮验证目标为 Windows 11 x64。Windows 上自然中断后的自动恢复尚未完成端到端实测；用于无人值守任务前请阅读版本说明。
 
 <details>
 <summary>使用前还需要知道的事</summary>
