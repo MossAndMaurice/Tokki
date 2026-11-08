@@ -1,5 +1,23 @@
 # Release notes · 更新日志
 
+## macOS 1.12.8.2 — 2026-11-08
+
+## 中文
+
+本次仅递增交付版本，应用行为与 1.12.8.1 相同。已安装 1.12.8.1 的用户可在设置中点击“开始更新”，亲自验证按钮下载百分比、关闭界面后继续下载，以及校验后的静默安装与自动重启。
+
+使用时保留 Tokki 后台进程；关闭窗口即可，退出 Tokki 会停止尚未完成的下载。升级后版本应显示 1.12.8.2，设置和恢复记录继续保留。
+
+适用于 macOS 13 及以上的 Apple Silicon Mac。应用使用 ad-hoc 签名，尚未经过 Apple 公证。
+
+## English
+
+This maintenance build increments the delivery version only; application behavior is unchanged from 1.12.8.1. Users running 1.12.8.1 can start the update in Settings to verify the button percentage, continued download after closing the interface, silent installation and automatic restart.
+
+Keep Tokki running in the background. Closing its window preserves the download; quitting Tokki stops an unfinished download. After the update, the app should show version 1.12.8.2 with existing settings and recovery records retained.
+
+Requires macOS 13 or later on Apple Silicon. The app is ad-hoc signed and has not been notarized by Apple.
+
 ## macOS 1.12.8.1 — 2026-11-08
 
 ## 中文
