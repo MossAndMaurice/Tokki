@@ -1,5 +1,27 @@
 # Release notes · 更新日志
 
+## macOS 1.12.8.1 — 2026-11-08
+
+## 中文
+
+- 更新按钮直接显示下载百分比；关闭设置、弹窗或主窗口后，只要 Tokki 后台仍在运行，下载就会继续。重新打开时显示当前进度。
+- 安装包校验通过后自动安装并重启，保留设置和恢复记录。无法安全退出或安装失败时停止，保留原程序并允许重试。
+- 本次不改变唤醒与定时行为。
+
+从旧版升级到本版，请下载 DMG 并运行 `Install.command`。安装本版后，后续更新可使用上述自动升级流程。退出 Tokki 后，尚未完成的下载会停止。
+
+适用于 macOS 13 及以上的 Apple Silicon Mac。应用使用 ad-hoc 签名，尚未经过 Apple 公证，系统可能要求允许打开。
+
+## English
+
+- The update button shows download progress as a percentage. Downloads continue after closing Settings, the popover or the main window while Tokki remains running in the background. Reopening the interface shows the current progress.
+- Verified packages install automatically and restart Tokki, preserving settings and recovery records. An unsafe exit or installation failure stops the update and keeps the previous application available for retry.
+- Wake-up and timer behavior is unchanged.
+
+To upgrade from an older version, download the DMG and run `Install.command`. Once this version is installed, subsequent updates can use the automatic update flow. Quitting Tokki stops unfinished downloads.
+
+Requires macOS 13 or later on Apple Silicon. The app is ad-hoc signed and has not been notarized by Apple; macOS may require permission to open it.
+
 ## Windows 1.12.5.2
 
 ### 中文
