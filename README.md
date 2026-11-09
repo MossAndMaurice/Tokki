@@ -1,6 +1,6 @@
-<h1 align="center">Tokki</h1>
+<h1 align="center">Tokki · Automatic Codex Resume</h1>
 
-<p align="center">Let Tokki babysit Codex so you can finally get some sleep.</p>
+<p align="center">Resume interrupted Codex tasks automatically when quota returns.</p>
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
@@ -12,12 +12,13 @@ You leave Codex working on something. Go to bed. Come back expecting a finished 
 
 It hit a usage limit shortly after you left. It's been waiting ever since.
 
-**Tokki is for that.** It runs in your Mac’s menu bar, watches the sessions you choose, and sends a follow-up in the original chat when quota is available and the session checks pass. The default message is `继续` (“continue”). Change it in Settings if you like.
+**Tokki resumes Codex automatically.** It runs in your Mac’s menu bar, watches the sessions you choose, and sends a follow-up in the original chat when quota is available and the session checks pass. The default message is `继续` (“continue”). Change it in Settings if you like.
 
 One less reason to keep checking on a job you already handed off.
 
 ## What it does
 
+- Automatically resumes monitored Codex tasks in the original chat when quota returns and session checks pass.
 - Shows remaining Codex quota and reset times in the menu bar.
 - Remembers which monitored sessions were interrupted and checks them individually.
 - Can also handle supported connection failures after Codex gives up retrying, and model-capacity errors.
