@@ -1,5 +1,25 @@
 # Release notes · 更新日志
 
+## Windows 1.12.7.1 — 2026-11-09
+
+### 中文
+
+- 暂停、取消计划或关闭会话监控时，立即阻止尚未提交的恢复消息继续发送；新会话也能获得轮转核验机会。
+- 退出和升级会等待已提交的发送尝试得到确认或按既有规则转为未知；无法安全退出时，安装会停止并保留正在运行的旧程序。
+- 已归档会话恢复后可手动重新核验并开启监控；历史记录较长时给出截断提示，避免误报保存失败。
+- 设置中的登录启动状态会读取 Windows 系统的禁用状态，反映任务管理器中的更改。
+
+Windows 11 x64 是首轮验证目标。自然中断后的自动恢复尚未完成完整实机验收；用于无人值守任务前请留意这一限制。
+
+### English
+
+- Pausing, canceling a plan, or disabling session monitoring now stops an unsent recovery message; new sessions also receive rotating verification opportunities.
+- Quit and upgrade wait for an in-flight send to be confirmed or classified as unknown under the existing rule. If a safe exit cannot complete, installation stops and leaves the running app in place.
+- An archived session can be checked and monitored again after restoration. Long histories show a truncation notice instead of incorrectly reporting a save failure.
+- Launch-at-login status reflects a startup item disabled through Windows Task Manager.
+
+Windows 11 x64 is the initial validation target. Automatic recovery after a natural interruption has not yet completed full end-to-end validation.
+
 ## macOS 1.12.8.3 — 2026-11-09
 
 ## 中文
