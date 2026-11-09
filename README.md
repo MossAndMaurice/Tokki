@@ -4,7 +4,7 @@
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.8.3"><strong>Download for macOS</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.7.1"><strong>Download for Windows</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.8.3"><strong>Download for macOS</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.7.2"><strong>Download for Windows</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
 
 ![Raised signs fixed to a solid panel: Seriously?! Stopped AGAIN?! Tokki's got this. I'm going to bed!](assets/tokki-hero-3d-en-v4.png)
 
@@ -44,7 +44,7 @@ Starting with macOS 1.12.8.1, click **Start update** in Settings when a newer ve
 
 ### Windows
 
-Download `Tokki-Windows-1.12.7.1.exe` from the [Windows release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.7.1) and run the installer. Choose an installation folder in the wizard, then open Tokki from the system tray. Windows 11 x64 is the initial validation target. Automatic recovery after a natural interruption has not yet completed end-to-end validation on Windows; see the release notes before using it for unattended work.
+Download `Tokki-Windows-1.12.7.2.exe` from the [Windows release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.7.2) and run the installer. Choose an installation folder in the wizard, then open Tokki from the system tray. If an older running version asks you to quit, exit Tokki from the tray and select Retry in the installer. Later updates started in Settings download, verify, and install silently. Windows 11 x64 is the initial validation target. Automatic recovery after a natural interruption has not yet completed end-to-end validation on Windows; see the release notes before using it for unattended work.
 
 <details>
 <summary>A few things to know</summary>

@@ -1,5 +1,23 @@
 # Release notes · 更新日志
 
+## Windows 1.12.7.2 — 2026-11-09
+
+### 中文
+
+- 从不支持安全退出的旧版升级时，安装器会明确提示从系统托盘退出 Tokki，并允许直接点击“重试”；旧安装在失败时保留。
+- 安装本版后，在设置中点击“开始更新”会下载并校验新版安装包，再静默安装并启动新版。退出前仍须完成既有的发送结果确认，不会强制结束 Tokki。
+- 本版保留 MossAndMaurice 可点击署名和新版隐私文案。已安装的旧版本在完成升级前仍显示旧文案。
+
+Windows 11 x64 是首轮验证目标。从本版到未来版本的真实自动安装尚未完成端到端验收；自然中断后的自动恢复也尚未完成完整实机验收。
+
+### English
+
+- When upgrading from an older version without safe exit support, the installer explains how to quit Tokki from the tray and offers Retry. A failed installation preserves the previous app.
+- After this version is installed, Start Update in Settings downloads and verifies a newer installer, then runs it silently and starts the new app. The existing send-result confirmation gate still applies before exit; Tokki is never force-terminated.
+- The clickable MossAndMaurice credit and updated privacy text remain. An already installed older version keeps its old text until upgraded.
+
+Windows 11 x64 is the initial validation target. A real end-to-end automatic install from this version to a future version has not yet been validated. Automatic recovery after a natural interruption also remains pending full end-to-end validation.
+
 ## Windows 1.12.7.1 — 2026-11-09
 
 ### 中文
