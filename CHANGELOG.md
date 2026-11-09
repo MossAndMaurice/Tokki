@@ -1,5 +1,27 @@
 # Release notes · 更新日志
 
+## macOS 1.12.8.3 — 2026-11-09
+
+## 中文
+
+- 设置页拆成“常规”和“唤醒消息”两张同级卡片，分组更清楚。
+- 移除消息输入框下方的说明文字，收紧卡片高度；保留多行输入空间，操作按钮靠右排列。
+- 保留现有开关、保存、恢复默认和输入校验；自动更新、唤醒与定时行为不变。
+
+已运行 1.12.8.1 或 1.12.8.2 的用户，可重新打开设置，通过“开始更新”升级到本版。下载时按钮显示百分比；关闭窗口后请保留 Tokki 后台进程，校验完成后自动安装并重启。
+
+适用于 macOS 13 及以上的 Apple Silicon Mac。应用使用 ad-hoc 签名，尚未经过 Apple 公证。
+
+## English
+
+- Settings now has two peer sections: General and Wake Message.
+- Removed the helper sentence below the message field and reduced the card height, retaining multiline input and right-aligned action buttons.
+- Existing switches, save/reset actions and validation are retained. Update, wake-up and timer behavior is unchanged.
+
+Users running 1.12.8.1 or 1.12.8.2 can reopen Settings and start the in-app update. The button shows download progress. Keep Tokki running in the background after closing the window; a verified package installs automatically and restarts the app.
+
+Requires macOS 13 or later on Apple Silicon. The app is ad-hoc signed and has not been notarized by Apple.
+
 ## macOS 1.12.8.2 — 2026-11-08
 
 ## 中文

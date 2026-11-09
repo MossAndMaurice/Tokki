@@ -4,7 +4,7 @@
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.8.2"><strong>下载 macOS 版</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.2"><strong>下载 Windows 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.8.3"><strong>下载 macOS 版</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.5.2"><strong>下载 Windows 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
 
 ![字牌固定在实心底板上：妈耶，又停了？！Tokki 帮我看着，我睡觉去了！](assets/tokki-hero-3d-zh-CN-v4.png)
 
@@ -32,7 +32,7 @@
 
 需要 Codex 桌面应用，以及已安装、已登录的 Codex CLI。Windows 版有单独的安装包，见下文。目前没有 Linux 版。
 
-1. 打开 [最新 macOS Release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.8.2)，从 **Assets** 下载 `Tokki-macOS-….dmg`。
+1. 打开 [最新 macOS Release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.8.3)，从 **Assets** 下载 `Tokki-macOS-….dmg`。
 2. 打开 DMG，运行 **`Install.command`** 安装或升级。
 3. 从状态栏打开 Tokki，给需要自动恢复的会话开启监控。
 
