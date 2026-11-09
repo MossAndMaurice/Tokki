@@ -4,7 +4,7 @@
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.8.3"><strong>Download for macOS</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.7.2"><strong>Download for Windows</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.13.0.0"><strong>Download for macOS</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.12.7.2"><strong>Download for Windows</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
 
 ![Raised signs fixed to a solid panel: Seriously?! Stopped AGAIN?! Tokki's got this. I'm going to bed!](assets/tokki-hero-3d-en-v4.png)
 
@@ -32,13 +32,15 @@ It won’t get around a usage limit. There still has to be quota to use.
 
 Requires Codex Desktop and an installed, signed-in Codex CLI. Windows has a separate installer below. Linux is not currently available.
 
-1. Download `Tokki-macOS-….dmg` from the **Assets** section of the [latest macOS release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.12.8.3).
+1. Download `Tokki-macOS-….dmg` from the **Assets** section of the [latest macOS release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.13.0.0).
 2. Open the DMG and run **`Install.command`** to install or upgrade.
 3. Open Tokki from the menu bar and turn on monitoring for the sessions you want to resume.
 
 Keep Tokki and Codex running. The Mac needs to be awake. Launch at login is available in Settings.
 
-Starting with macOS 1.12.8.1, click **Start update** in Settings when a newer version is available. The button shows the download percentage. Downloads continue after closing the interface while Tokki stays running in the background; verified packages install automatically and restart Tokki. Settings and recovery records are retained. If a safe exit or installation is unavailable, the update stops and can be retried. To move from an older version to this release, run `Install.command` once.
+Starting with macOS 1.12.8.1, click **开始更新 / Update now** in Settings when a newer version is available. The button shows the download percentage. Downloads continue after closing the interface while Tokki stays running in the background; verified packages install automatically and restart Tokki. Settings and recovery records are retained. If a safe exit or installation is unavailable, the update stops and can be retried. For versions older than macOS 1.12.8.1, run `Install.command` once to upgrade.
+
+macOS 1.13.0.0 adds **Language** in Settings: **Follow System**, **简体中文**, and **English**. Tokki checks for updates in the background every 24 hours after a successful check, retaining the check history across restarts. New-version dots guide you from the menu bar and Settings button to the update entry. Viewing the update section clears the outer unread dots; your saved wake message stays unchanged.
 
 **The current app is ad-hoc signed and has not been notarized by Apple.** macOS may block it from opening. Check the release notes before installing.
 

@@ -1,5 +1,29 @@
 # Release notes · 更新日志
 
+## macOS 1.13.0.0 — 2026-11-09
+
+## English
+
+- Added **Language** in Settings: **Follow System**, **简体中文**, and **English**. The interface switches immediately; saved wake messages, drafts, and session titles keep their original content.
+- Tokki now checks for updates in the background every 24 hours after a successful check. Check history survives restarts, and failed checks retry automatically. Opening Settings no longer forces another check.
+- New-version dots appear on the menu-bar icon, Settings button, and update entry. Viewing the update section clears the outer unread dots; the update entry keeps its dot until an update starts. A newer release lights the unread dots again.
+- Existing monitoring, recovery, wake-message and safe-installation behavior is retained. Download progress remains available after closing and reopening the interface.
+
+If you already use macOS 1.12.8.1 or later, open Settings and select **开始更新 / Update now** to upgrade. Keep Tokki running in the background while it downloads; a verified update installs automatically and restarts the app. Otherwise, download the DMG and run `Install.command`.
+
+**Apple Silicon Mac · macOS 13 or later.** This app is ad-hoc signed and has not been notarized by Apple. This release is for macOS; Windows installers remain separate.
+
+## 中文
+
+- 设置新增**语言**选项，支持**跟随系统、简体中文、English**，切换立即生效；已保存的唤醒消息、未保存草稿和会话标题保留原文。
+- 更新检查改为后台运行：成功检查后每 24 小时检查一次，检查记录跨重启保存，失败时自动退避重试。打开设置不再强制检查。
+- 状态栏图标、设置按钮和新版本入口增加红点。查看更新区域后，外层未读红点消失；更新入口的红点保留到开始更新，更高版本会重新提醒。
+- 监控、恢复、实际唤醒消息和安全安装规则保持原有行为；关闭再打开界面仍能看到当前下载进度。
+
+已安装 macOS 1.12.8.1 或更高版本的用户，可打开设置，点击**开始更新 / Update now**升级。下载期间请保留 Tokki 后台进程，校验后自动安装并重启。更早版本请下载 DMG，运行 `Install.command`。
+
+**适用于 Apple Silicon Mac，macOS 13 及以上。** 应用使用 ad-hoc 签名，尚未经过 Apple 公证。本次发布为 macOS 版，Windows 继续使用独立安装包。
+
 ## Windows 1.12.7.2 — 2026-11-09
 
 ### 中文
