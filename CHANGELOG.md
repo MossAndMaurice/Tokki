@@ -1,5 +1,20 @@
 # Release notes · 更新日志
 
+## Windows 1.13.0.1 — 2026-11-10
+
+### English
+
+- Settings now shows recent local diagnostic logs, the session-index status, and a button to open the log folder. The misplaced automatic-send explanation was removed from this section.
+- When Codex Desktop supplies a verified running snapshot but its session owner does not accept external input, Tokki shows read-only activity. This view does not enable monitoring or authorize automatic wake.
+- Discovery and desktop-connection failures now record limited diagnostic codes. API Key account compatibility still requires validation on the affected Windows installation.
+
+### 中文
+
+- 设置页现可查看近期本地诊断日志、会话索引状态，并打开日志文件夹；移除了误放在诊断区的自动发送说明。
+- Codex 桌面会话若提供经核验的运行中快照，但 owner 不接受外部输入，Tokki 会显示“只读活动”；该显示不启用监控，也不授权自动唤醒。
+- 会话发现和桌面连接失败会记录有限的诊断错误码。API Key 账号的兼容性仍需在出现问题的 Windows 机器上验收。
+
+
 ## macOS 1.13.0.0 — 2026-11-09
 
 ## English
