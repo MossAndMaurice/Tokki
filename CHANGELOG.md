@@ -1,5 +1,18 @@
 # Release notes · 更新日志
 
+## Windows 1.13.0.2 — 2026-11-11
+
+### English
+
+- The update button shows download percentages, including 0% when starting; cached installers show verification before installation.
+- If the previous installation only lost its Start Menu shortcut, the installer verifies ownership, rebuilds the shortcut, and upgrades transactionally.
+- Codex Desktop API-account activity with `rejected` or `noOwner` connection failures still needs evidence from the affected PC; this release does not loosen session or send checks.
+
+### 中文
+
+- 更新按钮显示下载百分比，开始时显示 0%；复用已下载的安装包时会先显示校验状态。
+- 若旧安装仅丢失开始菜单快捷方式，安装器会核验归属、重建快捷方式并以事务方式升级。
+- API 账号的 Codex 桌面会话出现 `rejected` 或 `noOwner` 时，仍需故障机器的证据；本版不放宽会话或发送核验。
 ## Windows 1.13.0.1 — 2026-11-10
 
 ### English
