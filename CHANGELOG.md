@@ -1,5 +1,30 @@
 # Release notes · 更新日志
 
+## macOS 1.14.0.0 — 2026-11-12
+
+## 中文
+
+- API Key 和经配置核验的自定义 Responses 网关现在显示为“API 接入”，不再把缺少订阅额度当作账户未知。
+- 支持监控 API 桌面会话，在 Codex 自行重试结束后，对指定连接失败和加密内容校验错误尝试恢复。
+- 连续自动恢复最多三次，依次等待 5、15、30 秒；保留原会话、原任务、待处理输入和唯一发送检查，结果未知不重复发送。
+- 273 项 macOS 回归通过。真实 API 网关自然故障恢复仍需目标环境实测，持续不兼容的加密历史不保证可通过重试恢复。
+
+已安装 macOS 1.12.8.1 或更高版本的用户，可在设置发现新版后点击“开始更新”。也可下载 DMG，打开后运行 `Install.command`。
+
+适用于 Apple Silicon Mac、macOS 13 及以上。应用使用 ad-hoc 签名，尚未经过 Apple 公证。Windows 使用独立安装包。
+
+## English
+
+- API keys and verified custom Responses providers now appear as “API connection” instead of an unknown account when subscription quota is unavailable.
+- Monitored API desktop sessions can recover from supported terminal connection failures and encrypted-content verification errors after Codex finishes its own retries.
+- Each consecutive recovery chain allows up to three attempts, waiting 5, 15 and 30 seconds. Original-session, task, pending-input and single-send checks remain in place; uncertain submissions are never sent again automatically.
+- All 273 macOS regression tests passed. Natural gateway failures still require validation in the target environment; retrying cannot guarantee recovery of incompatible encrypted history.
+
+Users on macOS 1.12.8.1 or later can select “Update now” in Settings when the new version appears. Alternatively, download the DMG and run `Install.command`.
+
+Apple Silicon Mac, macOS 13 or later. The app is ad-hoc signed and has not been notarized by Apple. Windows installers remain separate.
+
+
 ## Windows 1.14.0.1 — 2026-11-12
 
 ### 中文

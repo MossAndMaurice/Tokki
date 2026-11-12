@@ -4,7 +4,7 @@
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.13.0.0"><strong>下载 macOS 版</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.14.0.1"><strong>下载 Windows 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.14.0.0"><strong>下载 macOS 版</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.14.0.1"><strong>下载 Windows 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
 
 ![字牌固定在实心底板上：妈耶，又停了？！Tokki 帮我看着，我睡觉去了！](assets/tokki-hero-3d-zh-CN-v4.png)
 
@@ -33,7 +33,7 @@
 
 需要 Codex 桌面应用，以及已安装、已登录的 Codex CLI。Windows 版有单独的安装包，见下文。目前没有 Linux 版。
 
-1. 打开 [最新 macOS Release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.13.0.0)，从 **Assets** 下载 `Tokki-macOS-….dmg`。
+1. 打开 [最新 macOS Release](https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.14.0.0)，从 **Assets** 下载 `Tokki-macOS-….dmg`。
 2. 打开 DMG，运行 **`Install.command`** 安装或升级。
 3. 从状态栏打开 Tokki，给需要自动恢复的会话开启监控。
 
@@ -42,6 +42,8 @@
 从 macOS 1.12.8.1 起，发现新版后可在设置中点击**开始更新**，按钮直接显示下载百分比。关闭界面后，只要 Tokki 后台仍在运行，下载就会继续；校验通过后自动安装并重启，保留设置和恢复记录。无法安全退出或安装失败时停止，可稍后重试。低于 macOS 1.12.8.1 的版本，请先运行一次 `Install.command` 升级。
 
 macOS 1.13.0.0 在设置中增加**语言**选项：**跟随系统、简体中文、English**。成功检查后每 24 小时在后台检查更新，检查记录跨重启保存。状态栏、设置按钮和新版本入口通过红点提示；查看更新区域后清除外层未读红点，已保存的唤醒消息保持原文。
+
+macOS 1.14.0.0 新增 API Key 与经配置核验的自定义 Responses 接入识别。API 会话可对指定的终结性连接和加密校验错误尝试恢复，最多三次，依次等待 5、15、30 秒；发送结果未知不重发。真实网关恢复仍待目标环境实测。
 
 **当前安装包使用 ad-hoc 签名，尚未经过 Apple 公证，macOS 可能阻止打开。** 安装前请看对应版本的说明。
 
