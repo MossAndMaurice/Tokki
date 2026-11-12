@@ -1,5 +1,25 @@
 # Release notes · 更新日志
 
+## Windows 1.14.0.1 — 2026-11-12
+
+### 中文
+
+- 独立识别 API Key 与经有效配置核验的自定义 Responses 接入，显示“API 接入”；缺邮箱或订阅额度不会限制已具备原生控制能力的会话监控。
+- 修复当前 Codex 原生 v11 快照省略空提交队列时阻止 API 恢复的问题；每次发送前仍核对原 owner、原任务、失败终态和待处理请求，自行重试或已取消任务不会发送。
+- 指定终结性连接/加密校验失败按 5、15、30 秒连续最多恢复三次；次数跨重启与模式切换保留，前次启动确认后才接续，未知结果不重发。ChatGPT 现有规则保留。
+- 收紧自定义提供方配置核验，并修正 API 无订阅额度时的错误提示。536 项 Windows 回归和原生零发送集成检查通过。
+
+真实网关自然故障和目标机器的完整恢复闭环仍需实测；此版本不承诺修复所有 rejected/noOwner 或加密历史不兼容问题。旧版若无法安全退出，请先从托盘退出，再运行安装器。
+
+### English
+
+- Independently recognizes API keys and verified custom Responses providers. API access does not require an email or subscription quota to monitor a chat with verified native control.
+- Handles the omitted empty submission queue in current Codex v11 snapshots. Every send still checks the original owner, task, terminal failure and pending input; retrying or cancelled tasks cannot be resumed automatically.
+- Supported terminal connection and encrypted-content failures share up to three linked attempts after 5, 15 and 30 seconds. Counts survive restarts and mode changes, preceding starts must be confirmed, and unknown results are not resent. Existing ChatGPT rules remain in place.
+- Tightens provider configuration validation and removes the misleading API subscription-quota warning. All 536 Windows regressions and native zero-send integration checks passed.
+
+Natural gateway failures and the complete recovery flow on the affected PC still require validation. This release does not promise to resolve every rejected/noOwner result or incompatible encrypted history. If an older version cannot exit safely, quit it from the tray before running the installer.
+
 ## Windows 1.14.0.0 — 2026-11-12
 
 ### 中文
