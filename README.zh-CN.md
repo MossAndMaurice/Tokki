@@ -4,7 +4,7 @@
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.13.0.0"><strong>下载 macOS 版</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.13.0.3"><strong>下载 Windows 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.13.0.0"><strong>下载 macOS 版</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.14.0.0"><strong>下载 Windows 版</strong></a> · <a href="CHANGELOG.md">版本说明</a></p>
 
 ![字牌固定在实心底板上：妈耶，又停了？！Tokki 帮我看着，我睡觉去了！](assets/tokki-hero-3d-zh-CN-v4.png)
 
@@ -47,7 +47,9 @@ macOS 1.13.0.0 在设置中增加**语言**选项：**跟随系统、简体中�
 
 ### Windows
 
-从 [Windows Release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.13.0.3) 下载 `Tokki-Windows-1.13.0.3.exe`，运行安装程序并选择安装目录，然后从系统托盘打开 Tokki。若旧版仍在运行，先从托盘退出 Tokki，再点击安装器中的“重试”。在设置中点击“开始更新”会下载并校验安装包，再尝试静默升级；旧安装不完整时可能需要手动修复。设置中的“诊断与本地数据”现在可查看近期本地日志并打开日志文件夹。若 Codex 桌面会话提供经核验的运行中快照但不接受外部输入，Tokki 会将其标为“只读活动”，不会据此自动唤醒。首轮验证目标为 Windows 11 x64。Windows 上自然中断后的自动恢复尚未完成端到端实测；用于无人值守任务前请阅读版本说明。
+Windows 1.14.0.0 支持识别 API Key 与经配置核验的自定义 Responses 接入。指定的终结性 API 连接和加密校验错误使用最多三次的有限恢复链；真实网关恢复仍待目标环境实测。
+
+从 [Windows Release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.14.0.0) 下载 `Tokki-Windows-1.14.0.0.exe`，运行安装程序并选择安装目录，然后从系统托盘打开 Tokki。若旧版仍在运行，先从托盘退出 Tokki，再点击安装器中的“重试”。在设置中点击“开始更新”会下载并校验安装包，再尝试静默升级；旧安装不完整时可能需要手动修复。设置中的“诊断与本地数据”现在可查看近期本地日志并打开日志文件夹。若 Codex 桌面会话提供经核验的运行中快照但不接受外部输入，Tokki 会将其标为“只读活动”，不会据此自动唤醒。首轮验证目标为 Windows 11 x64。Windows 上自然中断后的自动恢复尚未完成端到端实测；用于无人值守任务前请阅读版本说明。
 
 <details>
 <summary>使用前还需要知道的事</summary>

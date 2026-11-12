@@ -1,5 +1,21 @@
 # Release notes · 更新日志
 
+## Windows 1.14.0.0 — 2026-11-12
+
+### 中文
+
+- 支持识别 API Key 和经配置核验的自定义 Responses 接入；界面显示“API 接入”，订阅额度显示不适用。
+- 对指定的终结性连接失败和加密校验错误，重新核验原任务后按 5、15、30 秒尝试恢复，连续最多三次；前次启动确认后才接续，结果未知时停止自动恢复。
+- 保留 ChatGPT 现有额度与恢复门槛。API 账户切换时清理旧展示，并在发送前重新核对接入模式。
+- 508 项源码回归通过。Windows 真实网关自然故障和安装版完整恢复闭环仍待目标环境实测。
+
+### English
+
+- Recognizes API keys and verified custom Responses providers, with an API access label and no subscription quota display.
+- Rechecks the original task before recovering supported terminal connection and encrypted-content errors. Recovery uses 5, 15, and 30 second delays, with at most three linked attempts and confirmed starts between attempts. Unknown results stop automatic recovery.
+- Preserves existing ChatGPT quota and recovery checks, clears account display caches on mode changes, and verifies the access mode again before sending.
+- All 508 source regression tests passed. Natural gateway failures and the complete installed Windows recovery flow still require validation in the target environment.
+
 ## Windows 1.13.0.3 — 2026-11-11
 
 ### English
