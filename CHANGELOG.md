@@ -1,5 +1,20 @@
 # Release notes · 更新日志
 
+## Windows 1.13.0.3 — 2026-11-11
+
+### English
+
+- Fixed the Windows install-exit handshake by passing the request ID through Electron's additional data channel. The isolated two-instance test confirmed a safe exit and ready marker.
+- Installer failures now write redacted codes to local Diagnostics. If an existing installation is incomplete, the log records which of its app directory, Start Menu shortcut, and registration are present.
+- Diagnostics and Local Data is collapsed by default in Settings. The expanded view groups log actions, local data status, and recent entries.
+- An already running 1.13.0.2 cannot receive the new handshake; exit it from the tray before this one-time upgrade. Codex Desktop API-account connection failures remain under investigation.
+
+### 中文
+
+- 安装退出请求改用 Electron 的附加数据通道传递；隔离双实例测试已确认安全退出并写出 `ready` 标记。
+- 安装失败现在会把脱敏错误码写入本地诊断日志；旧安装不完整时记录程序目录、开始菜单快捷方式和注册项是否存在。
+- 设置中的“诊断与本地数据”默认收起；展开后将日志操作、本地数据状态和近期记录分组排列。
+- 正在运行的 1.13.0.2 无法接收新版握手；首次升级前请从托盘退出。Codex 桌面 API 账号连接失败仍在排查。
 ## Windows 1.13.0.2 — 2026-11-11
 
 ### English
