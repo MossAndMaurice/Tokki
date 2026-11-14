@@ -27,6 +27,14 @@
 
 没额度的时候还是得等，Tokki 绕不过使用限制。
 
+## 看看 Tokki 怎么用
+
+以下为 macOS 界面，全部使用虚构演示数据，不包含真实账号或会话。
+
+| 多会话运行 | 会话监控 | 唤醒成功 |
+| :---: | :---: | :---: |
+| ![Tokki 主界面：六个活动演示会话与唤醒记录](assets/tokki-overview-zh.png) | ![六条虚构 Codex 会话均开启监控](assets/tokki-sessions-zh.png) | ![示例唤醒记录：发送消息与任务启动分别确认](assets/tokki-activity-zh.png) |
+
 ## 安装
 
 **Apple Silicon（M 系列）Mac · macOS 13 及以上**

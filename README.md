@@ -27,6 +27,14 @@ One less reason to keep checking on a job you already handed off.
 
 It won’t get around a usage limit. There still has to be quota to use.
 
+## See Tokki in action
+
+macOS interface with fictional demo data. These images contain no real accounts or conversations.
+
+| Active sessions | Session monitoring | Recovery confirmed |
+| :---: | :---: | :---: |
+| ![Tokki overview with six active demo sessions and recovery history](assets/tokki-overview-en.png) | ![Six fictional Codex sessions with monitoring enabled](assets/tokki-sessions-en.png) | ![Demo recovery history showing sent messages and confirmed task starts](assets/tokki-activity-en.png) |
+
 ## Install
 
 **Apple Silicon Mac · macOS 13+**
