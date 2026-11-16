@@ -1,5 +1,23 @@
 # Release notes · 更新日志
 
+## Windows 1.14.0.2 — 2026-11-16
+
+### 中文
+
+- 安装器页头和欢迎／完成页保持 Tokki 原图比例，修正中文界面中图标被横向拉宽的问题。
+- “诊断与本地数据”默认完全隐藏；在主页面快速三击 Tokki Logo 后，设置页才显示该区域，展开后读取日志。
+- 已核对中英文六个实际原生预览视图，图标比例恢复正常。
+
+本版尚未修复已复现的自动更新安装失败；需要手动下载安装包进行验证。图标显示验收不代表自动升级已通过验收。
+
+### English
+
+- Preserves the original Tokki artwork proportions in the installer header and welcome/finish pages, fixing horizontal stretching in the Chinese interface.
+- Diagnostics and Local Data is hidden by default. Rapidly click the Tokki logo three times on the overview page to reveal it in Settings; logs load when expanded.
+- Verified six actual native preview views across Chinese and English.
+
+The reproduced automatic-update installation failure remains unresolved. Download and run the installer manually for validation; artwork checks do not establish that automatic upgrades work.
+
 ## macOS 1.14.0.0 — 2026-11-12
 
 ## 中文
