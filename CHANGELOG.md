@@ -1,5 +1,25 @@
 # Release notes · 更新日志
 
+## Windows 1.14.0.3 — 2026-11-17
+
+### 中文
+
+- 修复完整旧版程序缺少开始菜单快捷方式和卸载登记时，静默升级被拒绝的问题；安装器核验包身份后补齐登记并升级。
+- 继续等待 Tokki 安全退出，不强杀进程。安装失败时恢复旧版，未知包及链接目录仍拒绝覆盖。
+- 保留更新按钮上的下载百分比、安装图标等比缩放及快速三击 Logo 才显示诊断入口的行为。
+- 完整安装包已通过真实旧版按钮的静默升级、自动重启及数据保留检查；发布前验证使用本地候选更新缓存。
+
+本次修复针对上述安装状态；真实 API 网关自然故障恢复仍待目标环境实测。
+
+### English
+
+- Repairs silent upgrades when a complete legacy installation is missing both its Start Menu shortcut and uninstall registration, after verifying the package identity.
+- Waits for Tokki to exit safely, preserves rollback on installation failure, and rejects unrecognized packages and linked directories.
+- Keeps download percentages on the update button, proportional installer artwork, and the hidden diagnostics entry revealed by a rapid triple click on the logo.
+- The complete installer passed a real old-client button upgrade, automatic restart, and data-retention checks using a local candidate update cache before publication.
+
+This fix addresses the installation state above. Recovery from natural failures on a real API gateway still needs target-environment validation.
+
 ## Windows 1.14.0.2 — 2026-11-16
 
 ### 中文
