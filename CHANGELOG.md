@@ -1,5 +1,15 @@
 # Release notes · 更新日志
 
+## Windows 1.14.0.5 — 2026-11-18
+
+- 已核验的 API 账户显示提供方名称，例如 custom。若提供方要求登录但账户尚未核验，界面仍提示账户未知。
+- 支持 Codex v13 会话快照。纯文字恢复沿用原会话、任务和待处理请求核验。
+- 已核验本机账户显示及会话监控。目标设备的自动恢复仍待实测。
+
+- Verified API accounts display the configured provider name, such as custom. If login is required and the account is unverified, the UI still shows that status.
+- Supports Codex v13 conversation snapshots and retains original conversation, task, and pending-request checks for plain-text recovery.
+- Account display and session monitoring were verified locally. Automatic recovery on the target device remains to be verified.
+
 ## Windows 1.14.0.4 — 2026-11-18
 
 ### 中文
