@@ -1,5 +1,21 @@
 # Release notes · 更新日志
 
+## Windows 1.14.0.4 — 2026-11-18
+
+### 中文
+
+- API 账户卡显示已核验的提供方标识，例如 `custom`。读取会话索引暂时失败时保留已有列表。
+- 支持原任务因图片数量超限、加密内容校验失败、断流或短暂网关错误而终止后的有限恢复。持续失败时沿用 5、15、30 秒的三次上限。
+- 修复覆盖安装读取未写完的退出回执，以及刷新与退出回执同时到达时的处理。隔离 Windows 环境已验证运行中的 1.14.0.3 安全退出并覆盖到 1.14.0.4。
+- 本地测试网关已验证四类故障及原会话显式继续。自动发送经过服务回归，真实第三方网关上的端到端自动恢复仍待验收。
+
+### English
+
+- API accounts show the verified provider identifier, such as `custom`. A temporary session-index read failure preserves the list.
+- Bounded recovery now recognizes terminal image-count, encrypted-content, stream and transient gateway errors. Repeated failures retain the three-attempt limit at 5, 15 and 30 seconds.
+- The Windows installer waits for complete shutdown replies. The desktop handles refresh and shutdown replies arriving together. An isolated Windows installation upgraded a running 1.14.0.3 instance to 1.14.0.4 after a clean exit.
+- A local gateway verified all four failure types and explicit continuation in the same conversation. Automated sending passed service regression tests. End-to-end automatic recovery on a third-party gateway awaits verification.
+
 ## Windows 1.14.0.3 — 2026-11-17
 
 ### 中文
