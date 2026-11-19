@@ -1,5 +1,15 @@
 # Release notes · 更新日志
 
+## macOS 1.14.0.1 — 2026-11-19
+
+### 中文
+
+- macOS 1.14.0.1 减少后台磁盘写入，尤其是 Codex 额度或会话状态持续读取失败时。原有自动恢复检查和发送规则保持不变。
+
+### English
+
+- macOS 1.14.0.1 reduces background disk writes, especially when Codex quota or session status repeatedly fails to load. Automatic recovery checks and sending rules are unchanged.
+
 ## Windows 1.14.0.5 — 2026-11-18
 
 - 已核验的 API 账户显示提供方名称，例如 custom。若提供方要求登录但账户尚未核验，界面仍提示账户未知。
