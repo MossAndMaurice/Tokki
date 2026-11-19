@@ -10,6 +10,20 @@
 
 - macOS 1.14.0.1 reduces background disk writes, especially when Codex quota or session status repeatedly fails to load. Automatic recovery checks and sending rules are unchanged.
 
+## Windows 1.14.0.8 — 2026-11-19
+
+### 中文
+
+- 修复更新或首次启动后 Codex 额度查询超时。Tokki 先初始化独立状态库，避免回填桌面会话，同时继续使用原 Codex Home 的账户和提供方配置。
+- 将额度查询日志与桌面共享日志库隔离，并减少重复后台诊断和审计清理产生的写入。
+- 已在 Windows 实机验证覆盖升级，以及使用真实 ChatGPT 账户在首次启动和重启后的第一次额度读取。
+
+### English
+
+- Fixes Codex quota query timeouts on first launch or after an update. Tokki initializes a private state database without backfilling desktop sessions and retains the account and provider settings from the original Codex Home.
+- Isolates quota query logs from the shared desktop log database and reduces writes from repeated background diagnostics and audit cleanup.
+- Verified an in-place Windows upgrade and successful first-attempt quota reads with a real ChatGPT account on first launch and after restart.
+
 ## Windows 1.14.0.5 — 2026-11-18
 
 - 已核验的 API 账户显示提供方名称，例如 custom。若提供方要求登录但账户尚未核验，界面仍提示账户未知。
