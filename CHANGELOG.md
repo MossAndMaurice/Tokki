@@ -1,5 +1,19 @@
 # Release notes · 更新日志
 
+## Windows 1.14.0.10 — 2026-11-24
+
+### 中文
+
+- API 接入账户没有订阅额度窗口时，主页面不再显示空额度区域。
+- 唤醒记录预览将会话标题、记录时间和状态分行显示，并随记录数量调整高度。
+- 收录 Skilo 0.6.0 开发工作流包。
+
+### English
+
+- Hide the empty subscription quota area for API accounts.
+- Show recovery titles above their times and statuses, with preview height adapting to the records.
+- Include the Skilo 0.6.0 development workflow bundle.
+
 ## macOS 1.14.0.1 — 2026-11-19
 
 ### 中文

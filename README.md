@@ -4,7 +4,7 @@
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
-<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.14.0.1"><strong>Download for macOS</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.14.0.8"><strong>Download for Windows</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
+<p align="center"><a href="https://github.com/MossAndMaurice/Tokki/releases/tag/macos%2Fv1.14.0.1"><strong>Download for macOS</strong></a> · <a href="https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.14.0.10"><strong>Download for Windows</strong></a> · <a href="CHANGELOG.md">Release notes</a></p>
 
 ![Raised signs fixed to a solid panel: Seriously?! Stopped AGAIN?! Tokki's got this. I'm going to bed!](assets/tokki-hero-3d-en-v4.png)
 
@@ -59,11 +59,11 @@ macOS 1.14.0.0 adds API-key and verified custom Responses-provider recognition. 
 
 ### Windows
 
-Windows 1.14.0.8 fixes first-launch quota query timeouts and reduces background disk writes.
+Windows 1.14.0.10 hides the empty subscription quota area for API accounts and improves recovery-history layout.
 
 Windows 1.14.0.5 recognizes API keys and verified custom Responses providers. Supported terminal API connection and encrypted-content failures use a bounded recovery chain of up to three attempts. Real gateway recovery still requires target-environment validation.
 
-Download `Tokki-Windows-1.14.0.8.exe` from the [Windows release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.14.0.8) and run the installer. Choose an installation folder in the wizard, then open Tokki from the system tray. If an older running version asks you to quit, exit Tokki from the tray and select Retry in the installer. Updates started in Settings download and verify the installer, then attempt a silent upgrade. The installer can repair a complete legacy Tokki installation whose Start Menu shortcut and uninstall registration are both missing, after verifying the package. Unrecognized installations are rejected. Rapidly click the Tokki logo three times on the overview page to reveal Diagnostics in Settings, where recent local logs and the log folder are available. A Codex desktop session that supplies a verified running snapshot but does not accept external input appears as read-only activity; it cannot authorize automatic wake. Windows 11 x64 is the initial validation target. Automatic recovery after a natural interruption has not yet completed end-to-end validation on Windows; see the release notes before using it for unattended work.
+Download `Tokki-Windows-1.14.0.10.exe` from the [Windows release](https://github.com/MossAndMaurice/Tokki/releases/tag/windows%2Fv1.14.0.10) and run the installer. Choose an installation folder in the wizard, then open Tokki from the system tray. If an older running version asks you to quit, exit Tokki from the tray and select Retry in the installer. Updates started in Settings download and verify the installer, then attempt a silent upgrade. The installer can repair a complete legacy Tokki installation whose Start Menu shortcut and uninstall registration are both missing, after verifying the package. Unrecognized installations are rejected. Rapidly click the Tokki logo three times on the overview page to reveal Diagnostics in Settings, where recent local logs and the log folder are available. A Codex desktop session that supplies a verified running snapshot but does not accept external input appears as read-only activity; it cannot authorize automatic wake. Windows 11 x64 is the initial validation target. Automatic recovery after a natural interruption has not yet completed end-to-end validation on Windows; see the release notes before using it for unattended work.
 
 <details>
 <summary>A few things to know</summary>
