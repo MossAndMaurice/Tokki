@@ -1,5 +1,19 @@
 # Release notes · 更新日志
 
+## macOS 1.14.0.2 — 2026-11-27
+
+### 中文
+
+- API 账户没有订阅额度时，首页收起额度占位卡。需要登录的自定义提供方会显示名称，未核验账户时显示「账户未知」。
+- 首页显示最近三条唤醒记录，标题独占一行，时间和状态放在第二行。
+- 兼容 Codex v13 会话快照，保留原会话、原任务及待处理输入的核验。
+
+### English
+
+- The overview hides the quota placeholder for API accounts without a subscription quota. It shows the configured provider name separately from an unverified account.
+- The overview shows the three most recent wake records, with the title on the first line and the time and status below.
+- Supports Codex v13 conversation snapshots with the existing conversation, task, and pending-input checks.
+
 ## Windows 1.14.0.10 — 2026-11-24
 
 ### 中文
